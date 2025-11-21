@@ -16,7 +16,3 @@ Versão transacional completa com arquitetura em camadas (Presentation, Applicat
 4. Ajuste o caminho do banco em `Project.dpr` (linha com dmConexaoFirebird.ConfigurarConexao).
 5. Compile e execute.
 
-## Notas rápidas
-- Acesso a dados usando componentes das abas *Interbase* e *Data Access* (TSQLConnection, TSQLDataSet, TDataSetProvider).
-- Transações: StartTransaction / Commit / Rollback encapsuladas em `UUnidadeDeTrabalhoSimple`.
-- UI usa TClientDataSet desconectado, fornecido pelos repositórios via TDataSetProvider.
